@@ -1,0 +1,899 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*header menú de navegación*/
+header {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 110px;
+    padding-left: 155px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    background-color: #FCA2A2;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    padding: 5px 17px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #EA7480;
+}
+
+.btn-contacto {
+    background-color: #403235;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    padding: 5px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-cv {
+    background-color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #EA7480;
+    border-radius: 9px;
+    border: 3px solid  #EA7480;
+    padding: 9px 16px;
+    margin-right: 110px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.seccion1 {
+    background-image: url(images/Bienvenida.jpg);
+    background-repeat: no-repeat;
+}
+
+.seccion2 {
+    background-image: url(images/fondo-sobre-mi.png);
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    position: relative;
+}
+
+.contenedor2 {
+    align-items: center;
+    justify-content: left;
+    margin-top: 52px;
+}
+
+.seccion2 h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 160px;
+    margin-top: -530px;
+}
+
+.seccion2 h2 {
+    color: #FCA2A2;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    padding-left: 160px;
+    margin-top: -36px;
+}
+
+.seccion2 h3 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    padding-left: 160px;
+    margin-top: -75px;
+}
+
+.seccion2 p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 160px;
+    margin-top: -25px;
+}
+
+.seccion2 p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 160px;
+    margin-top: -15px;
+}
+
+.btn-cv2 {
+    background-color: #FCA2A2;
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 9px;
+    padding: 9px 16px;
+    margin-left: 160px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-cv2:hover {
+    background: #EA7480;
+}
+
+.patron2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 119px;
+}
+
+.patron-sobre-mi{
+    background-image: url(images/patron-seccion-bienvenida.png);
+    background-repeat: no-repeat;
+}
+
+.seccion3 { 
+    background-color: white;
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -67px;
+}
+
+.seccion3 h1 {
+    color: #EA7480;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.seccion3 p {
+    color: #403235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -55px;
+}
+
+.contenedor3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+
+.tarjeta-trasera {
+    background-color: white;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    border: 2px solid #413235;
+    padding: 20px;
+    margin: -15px 65px;
+}
+
+.tarjetas {
+    background-color: #F2798F;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: -20px -8px;
+    position: relative;
+}
+
+.tarjetas h2 {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.tarjetas p {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.seccion4 {
+    background-color: #FCA2A2;
+    width: 100%;
+    height: 540px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.seccion4 h1 {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.seccion4 p {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -55px;
+}
+
+.tarjeta-trasera2 {
+    background-color: white;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    border: 2px solid #413235;
+    padding: 20px;
+    margin: -15px 65px;
+}
+
+.tarjetas2 {
+    background-color: #EA7480;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: -20px -8px;
+    position: relative;
+}
+
+.tarjetas2 h2 {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.seccion5 {
+    background-color: white;
+    width: 100%;
+    height: 620px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -67px;
+}
+
+.seccion5 h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 43px;
+}
+
+.seccion5 h2 {
+    color: #F2798F;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -65px;
+}
+
+.seccion5 p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5px;
+}
+
+form {
+    width: 33.5%;
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 490px;
+}
+
+.filas-formulario {
+    display: flex;
+    gap: 20px;
+}
+
+.grupos-formulario {
+    text-align: left;
+}
+
+label {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+input, textarea {
+    width: 80%;
+    border-radius: 10px;
+    border: 1.5px solid #413235;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #523d3f;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.contenedor-footer {
+    background-color: #413235;
+    max-width: 100%;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
+}
+
+/*secciones páginas portafolio*/
+/*seccion home*/
+.seccion-home {
+    background-image: url(images/Bienvenida.jpg);
+    background-repeat: no-repeat;
+}
+
+.contenedor-patron1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -4px;
+}
+
+.patron-bienvenida {
+    background-image: url(images/patron-seccion-bienvenida.png);
+    background-repeat: no-repeat;
+}
+
+/*seccion sobre mi*/
+.seccion-sobre-mi {
+    background-image: url(images/fondo-seccion-sobre-mi.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    position: relative;
+}
+
+.textos {
+    text-align: left;
+    gap: 10px;
+    position: absolute;
+}
+
+.seccion-sobre-mi h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 160px;
+    margin-top: -460px;
+}
+
+.seccion-sobre-mi h2 {
+    color: #FCA2A2;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    padding-left: 160px;
+    margin-top: -36px;
+}
+
+.seccion-sobre-mi h3 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    padding-left: 160px;
+    margin-top: -75px;
+}
+
+.seccion-sobre-mi p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 160px;
+    margin-top: -25px;
+}
+
+.seccion-sobre-mi p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 160px;
+    margin-top: -15px;
+}
+
+.contenedor-patron2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+}
+
+.patron-sobre-mi {
+    background-image: url(images/patron-seccion-sobre-mi.png);
+    background-repeat: no-repeat;
+}
+
+/*seccion servicios*/
+.seccion-servicios {
+    background-color: white;
+    width: 100%;
+    height: 530px;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.seccion-servicios h1 {
+    color: #F2798F;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.seccion-servicios p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.contenedor-testimonios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.tarjeta-trasera {
+    background-color: white;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    border: 2px solid #413235;
+    padding: 20px;
+    margin: -15px 65px;
+}
+
+.tarjeta {
+    background-color: #F2798F;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: -20px -8px;
+    position: relative;
+}
+
+.tarjeta img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    border: 2px solid #413235;
+    margin-top: -50px;
+    object-fit: cover;
+}
+
+.seccion-servicios h2 {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.seccion-servicios p1 {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contenedor-patron3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+}
+
+.patron-servicios {
+    background-image: url(images/patron-seccion-servicios.png);
+    background-repeat: no-repeat;
+}
+
+/*seccion portafolio*/
+.seccion-portafolio {
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.seccion-portafolio h1 {
+    color: #FCA2A2;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.seccion-portafolio p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-patron4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+}
+
+.patron-portafolio {
+    background-image: url(images/patron-seccion-portafolio.png);
+    background-repeat: no-repeat;
+}
+
+/*seccion contacto formulario*/
+.seccion-contacto {
+    background-color: white;
+    width: 100%;
+    height: 595px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.seccion-contacto h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.seccion-contacto h2 {
+    color: #F2798F;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -65px;
+}
+
+.seccion-contacto p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5px;
+}
+
+form {
+    width: 33.5%;
+    align-items: center;
+    margin-left: 490px;
+}
+
+.filas-formulario {
+    display: flex;
+    gap: 20px;
+}
+
+.grupos-formulario {
+    text-align: left;
+}
+
+label {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #413235;
+    margin-bottom: 15px;
+    display: block;
+}
+
+input, textarea {
+    width: 80%;
+    border-radius: 10px;
+    border: 1.5px solid #413235;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #523d3f;
+}
+
+.contenedor-patron5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patron-contacto {
+    background-image: url(images/patron-seccion-sobre-mi.png);
+    background-repeat: no-repeat;
+}
+
+/*Sección Términos y Condiciones*/
+.seccion-terminos {
+    background-color: white;
+    max-width: 800px;
+    height: 600px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.seccion-terminos h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.seccion-terminos h2 {
+    color: #EA7480;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.seccion-terminos h3 {
+    color: #F2798F;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.seccion-terminos p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: -20px;
+}
+
+.seccion-terminos a {
+    color: #EA7480;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.seccion-terminos a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.contenedor-footer1, .contenedor-footer3 {
+    background-color: #EA7480;
+    max-width: 100%;
+    height: 125px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
+}
+
+.contenedor-footer2, .contenedor-footer4 {
+    background-color: #FCA2A2;
+    max-width: 100%;
+    height: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
+}
+
+.contenedor-footer5, .contenedor-footer6 {
+    background-color: #413235;
+    max-width: 100%;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 65px;
+    padding-left: 200px;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    margin: 3px 0;
+}
+
+.información-footer p1 {
+    font-family: "Lora", serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 3px 0;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-right: 190px;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
