@@ -14,20 +14,42 @@ header {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    padding: 15px 20px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
+    max-width: 100%;
     height: 110px;
-    padding-left: 155px;
+    padding-left: 130px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
     gap: 15px;
-    cursor: pointer;
+    padding-right: 65px;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav ul li a {
@@ -46,15 +68,21 @@ nav ul li a:hover {
     background: #EA7480;
 }
 
-.btn-contacto {
-    background-color: #403235;
-    font-family: 'Fredoka', sans-serif;
+.btn-contacto, .btn-terminos {
+    background-color: #413235;
+    font-family: "Fredoka", sans-serif;
+    font-size: 14px;
     font-weight: 500;
-    font-size: 13px;
-    color: white;
+    color:white;
+    border-radius: 9px;
     padding: 5px 17px;
+    display: block;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.btn-contacto:hover, .btn-terminos:hover {
+    background-color: #635254;
 }
 
 .btn-cv {
@@ -66,14 +94,25 @@ nav ul li a:hover {
     border-radius: 9px;
     border: 3px solid  #EA7480;
     padding: 9px 16px;
-    margin-right: 110px;
+    margin-right: 0px;
     text-decoration: none;
-    cursor: pointer;
 }
 
-.seccion1 {
-    background-image: url(images/Bienvenida.jpg);
-    background-repeat: no-repeat;
+.btn-cv:hover {
+    background-color: #EA7480;
+    color: white;
+}
+
+
+/* secciones-index-general*/
+.seccion1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedor-patron1 {
+    width: 100%;
+    margin-top: -5px;
 }
 
 .seccion2 {
@@ -92,7 +131,7 @@ nav ul li a:hover {
 .seccion2 h1 {
     color: #413235;
     font-family: 'Fredoka', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     padding-left: 160px;
     margin-top: -530px;
@@ -123,15 +162,8 @@ nav ul li a:hover {
     font-weight: 500;
     padding-left: 160px;
     margin-top: -25px;
-}
-
-.seccion2 p {
-    color: #413235;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 500;
-    padding-left: 160px;
-    margin-top: -15px;
+    margin-bottom: 15px;
+    max-width: 550px;
 }
 
 .btn-cv2 {
@@ -142,34 +174,22 @@ nav ul li a:hover {
     color: white;
     border-radius: 9px;
     padding: 9px 16px;
-    margin-left: 160px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
     text-decoration: none;
-    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .btn-cv2:hover {
     background: #EA7480;
 }
 
-.patron2 {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 119px;
-}
-
-.patron-sobre-mi{
-    background-image: url(images/patron-seccion-bienvenida.png);
-    background-repeat: no-repeat;
-}
-
 .seccion3 { 
     background-color: white;
     width: 100%;
-    height: 430px;
+    height: 540px;
     text-align: center;
-    justify-content: center;
-    margin-top: -67px;
 }
 
 .seccion3 h1 {
@@ -178,7 +198,7 @@ nav ul li a:hover {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 115px;
 }
 
 .seccion3 p {
@@ -186,14 +206,21 @@ nav ul li a:hover {
     font-family: "Lora", serif;
     font-size: 14px;
     font-weight: 500;
-    text-align: center;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -55px;
 }
 
 .contenedor3 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 52px;
 }
 
@@ -226,6 +253,15 @@ nav ul li a:hover {
     margin-top: 75px;
 }
 
+.seccion-servicios h2 {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .tarjetas p {
     color: white;
     font-family: "Lora", serif;
@@ -240,14 +276,6 @@ nav ul li a:hover {
     width: 100%;
     height: 540px;
     text-align: center;
-    justify-content: center;
-}
-
-.contenedor4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
 }
 
 .seccion4 h1 {
@@ -268,6 +296,15 @@ nav ul li a:hover {
     margin-top: -55px;
 }
 
+.contenedor4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+
 .tarjeta-trasera2 {
     background-color: white;
     width: 200px;
@@ -275,11 +312,11 @@ nav ul li a:hover {
     border-radius: 10px;
     border: 2px solid #413235;
     padding: 20px;
-    margin: -15px 65px;
+    margin: -15px 40px;
 }
 
 .tarjetas2 {
-    background-color: #EA7480;
+    background-color: #F2798F;
     width: 200px;
     height: 210px;
     border-radius: 10px;
@@ -300,10 +337,9 @@ nav ul li a:hover {
 .seccion5 {
     background-color: white;
     width: 100%;
-    height: 620px;
     text-align: center;
     justify-content: center;
-    margin-top: -67px;
+    margin-top: -45x;
 }
 
 .seccion5 h1 {
@@ -312,7 +348,7 @@ nav ul li a:hover {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
-    padding-top: 43px;
+    margin-top: 25px;
 }
 
 .seccion5 h2 {
@@ -339,12 +375,12 @@ form {
     font-family: "Lora", serif;
     font-size: 14px;
     font-weight: 500;
-    align-items: center;
-    margin-left: 490px;
+    margin: 0 auto;
 }
 
 .filas-formulario {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -379,7 +415,7 @@ button {
     border: none;
     padding: 5px;
     margin-top: 5px;
-    margin-left: -60px;
+    margin-bottom: 55px;
     cursor: pointer;
 }
 
@@ -388,59 +424,101 @@ button:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+    width: 100%;
 }
 
 .contenedor-footer {
-    background-color: #413235;
-    max-width: 100%;
-    height: 150px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #403235;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 10px;
-    gap: 190px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px 20px;
 }
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 65px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
+}
+
+.información-footer .copyright {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
+}
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
+
 
 /*secciones páginas portafolio*/
 /*seccion home*/
 .seccion-home {
-    background-image: url(images/Bienvenida.jpg);
-    background-repeat: no-repeat;
-}
-
-.contenedor-patron1 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -4px;
+    display: block;
 }
 
-.patron-bienvenida {
-    background-image: url(images/patron-seccion-bienvenida.png);
-    background-repeat: no-repeat;
+.seccion-home img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
+/*terminada*/
+
+
 
 /*seccion sobre mi*/
 .seccion-sobre-mi {
-    background-image: url(images/fondo-seccion-sobre-mi.jpg);
-    background-repeat: no-repeat;
     width: 100%;
-    text-align: left;
-    align-items: center;
     position: relative;
+    margin-bottom: 0;
+}
+
+.fondo-imagen {
+    width: 100%;
+}
+
+.fondo-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .textos {
-    text-align: left;
-    gap: 10px;
     position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .seccion-sobre-mi h1 {
@@ -448,8 +526,7 @@ footer {
     font-family: 'Fredoka', sans-serif;
     font-size: 28px;
     font-weight: 600;
-    padding-left: 160px;
-    margin-top: -460px;
+    margin-left: 140px;
 }
 
 .seccion-sobre-mi h2 {
@@ -457,8 +534,8 @@ footer {
     font-family: 'Fredoka', sans-serif;
     font-size: 80px;
     font-weight: 700;
-    padding-left: 160px;
-    margin-top: -36px;
+    margin-left: 140px;
+    margin-top: -30px;
 }
 
 .seccion-sobre-mi h3 {
@@ -466,8 +543,9 @@ footer {
     font-family: 'Fredoka', sans-serif;
     font-size: 38px;
     font-weight: 600;
-    padding-left: 160px;
+    margin-left: 140px;
     margin-top: -75px;
+    margin-bottom: -5px;
 }
 
 .seccion-sobre-mi p {
@@ -475,39 +553,85 @@ footer {
     font-family: "Lora", serif;
     font-size: 14px;
     font-weight: 500;
-    padding-left: 160px;
-    margin-top: -25px;
-}
-
-.seccion-sobre-mi p {
-    color: #413235;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 500;
-    padding-left: 160px;
-    margin-top: -15px;
+    margin-left: 140px;
+    margin-bottom: -10px;
+    max-width: 600px;
 }
 
 .contenedor-patron2 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -2px;
 }
 
-.patron-sobre-mi {
-    background-image: url(images/patron-seccion-sobre-mi.png);
-    background-repeat: no-repeat;
+.contenedor-patron2 img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
+footer {
+    width: 100%;
+}
+
+.contenedor-footer2 {
+    background-color: #FCA2A2;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px 20px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 65px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
+}
+
+.información-footer .copyright {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
+}
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
+
 
 /*seccion servicios*/
 .seccion-servicios {
     background-color: white;
     width: 100%;
-    height: 530px;
     text-align: center;
-    margin-top: -70px;
+    padding: 56px 0 60px;
+    margin-top: 0;
 }
 
 .seccion-servicios h1 {
@@ -517,6 +641,8 @@ footer {
     font-weight: 700;
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 60px;
+    margin-top: -55px;
 }
 
 .seccion-servicios p {
@@ -526,13 +652,17 @@ footer {
     font-weight: 500;
     text-align: center;
     margin-top: -50px;
+    margin-bottom: 40px;
 }
 
 .contenedor-testimonios {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
     margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .tarjeta-trasera {
@@ -541,8 +671,8 @@ footer {
     height: 210px;
     border-radius: 10px;
     border: 2px solid #413235;
-    padding: 20px;
-    margin: -15px 65px;
+    margin: 0;
+    position: relative;
 }
 
 .tarjeta {
@@ -550,18 +680,22 @@ footer {
     width: 200px;
     height: 210px;
     border-radius: 10px;
+    position: absolute;
     padding: 20px;
-    margin: -20px -8px;
-    position: relative;
+    top: 0;
+    left: 10px;
 }
 
 .tarjeta img {
-    width: 120px;
-    height: 120px;
-    border-radius: 80%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     border: 2px solid #413235;
-    margin-top: -50px;
+    display: block;
     object-fit: cover;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .seccion-servicios h2 {
@@ -570,30 +704,95 @@ footer {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-.seccion-servicios p1 {
+.testimonio-texto {
+    text-align: center;
+    margin: 75px 0;
+    display: block;
+}
+
+.testimonio-texto p {
     color: white;
     font-family: "Lora", serif;
     font-size: 14px;
     font-weight: 500;
-    text-align: center;
 }
 
 .contenedor-patron3 {
     width: 100%;
+}
+
+.contenedor-patron3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: -5px;
+}
+
+footer {
+    width: 100%;
+}
+
+.contenedor-footer3 {
+    background-color: #EA7480;
+    max-width: 100%;
+    height: auto;
+    min-height: 125px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    margin: -2px;
+    justify-content: space-between;
+    padding: 30px 10px;
+    box-sizing: border-box;
 }
 
-.patron-servicios {
-    background-image: url(images/patron-seccion-servicios.png);
-    background-repeat: no-repeat;
+.logo-footer {
+    display: flex;
+    align-items: center;
 }
 
+.logo-footer img {
+    width: 65px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
+}
+
+.información-footer .copyright {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
+}
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
+
+.
 /*seccion portafolio*/
 .seccion-portafolio {
     background-color: white;
@@ -611,6 +810,7 @@ footer {
     font-weight: 700;
     text-align: center;
     padding-top: 30px;
+    margin-top: -55px;
 }
 
 .seccion-portafolio p {
@@ -622,6 +822,18 @@ footer {
     margin-top: -57px;
 }
 
+.contenedor-patron4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -4px;
+}
+
+.contenedor-patron4 {
+    background-image: url(images/patron-seccion-portafolio.png);
+    background-repeat: no-repeat;
+}
 
 
 
@@ -640,25 +852,81 @@ footer {
 
 .contenedor-patron4 {
     width: 100%;
+}
+
+.contenedor-patron4 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    width: 100%;
+}
+
+.contenedor-footer4 {
+    background-color: #FCA2A2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    margin: -2px;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
 }
 
-.patron-portafolio {
-    background-image: url(images/patron-seccion-portafolio.png);
-    background-repeat: no-repeat;
+.logo-footer {
+    display: flex;
+    align-items: center;
 }
 
-/*seccion contacto formulario*/
+.logo-footer img {
+    width: 65px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
+}
+
+.información-footer .copyright {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
+}
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
+.
+
+
+/*seccion contacto*/
 .seccion-contacto {
     background-color: white;
     width: 100%;
-    height: 595px;
     text-align: center;
     justify-content: center;
-    margin-top: -70px;
+    margin-top: -45x;
 }
 
 .seccion-contacto h1 {
@@ -667,7 +935,7 @@ footer {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
-    padding-top: 20px;
+    margin-top: 25px;
 }
 
 .seccion-contacto h2 {
@@ -690,12 +958,16 @@ footer {
 
 form {
     width: 33.5%;
-    align-items: center;
-    margin-left: 490px;
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
 }
 
 .filas-formulario {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -707,7 +979,6 @@ label {
     font-family: 'Fredoka', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: #413235;
     margin-bottom: 15px;
     display: block;
 }
@@ -731,7 +1002,7 @@ button {
     border: none;
     padding: 5px;
     margin-top: 5px;
-    margin-left: -60px;
+    margin-bottom: 55px;
     cursor: pointer;
 }
 
@@ -741,114 +1012,23 @@ button:hover {
 
 .contenedor-patron5 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.patron-contacto {
-    background-image: url(images/patron-seccion-sobre-mi.png);
-    background-repeat: no-repeat;
-}
-
-/*Sección Términos y Condiciones*/
-.seccion-terminos {
-    background-color: white;
-    max-width: 800px;
-    height: 600px;
-    text-align: center;
-    padding: 50px 20px;
-    margin: 0 auto;
-    margin-top: -50px;
-}
-
-.seccion-terminos h1 {
-    color: #413235;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.seccion-terminos h2 {
-    color: #EA7480;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: -40px;
-    margin-bottom: 20px;
-}
-
-.seccion-terminos h3 {
-    color: #F2798F;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-.seccion-terminos p {
-    color: #413235;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: left;
-    margin-top: -20px;
-}
-
-.seccion-terminos a {
-    color: #EA7480;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.seccion-terminos a:hover {
-    text-decoration: underline;
+.contenedor-patron5 img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 footer {
+    width: 100%;
+}
+
+.contenedor-footer5 {
+    background-color: #403235;
+    max-width: 100%;
+    height: auto;
     color: white;
-    text-align: center;
-}
-
-.contenedor-footer1, .contenedor-footer3 {
-    background-color: #EA7480;
-    max-width: 100%;
-    height: 125px;
-    color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 10px;
-    gap: 190px;
-    margin: auto;
-}
-
-.contenedor-footer2, .contenedor-footer4 {
-    background-color: #FCA2A2;
-    max-width: 100%;
-    height: 125px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 10px;
-    gap: 190px;
-    margin: auto;
-}
-
-.contenedor-footer5, .contenedor-footer6 {
-    background-color: #413235;
-    max-width: 100%;
-    height: 150px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: flex;
@@ -867,33 +1047,173 @@ footer {
 
 .logo-footer img {
     width: 65px;
-    padding-left: 200px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
 }
 
 .información-footer p {
     font-family: "Lora", serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 10px;
+    color: white;
     margin: 3px 0;
 }
 
-.información-footer p1 {
+.información-footer .copyright {
+    color: white;
     font-family: "Lora", serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
-    text-align: center;
-    margin: 3px 0;
 }
 
 .iconos-redes-footer {
     display: flex;
-    flex-direction: column;
-    padding-top: 45px;
-    padding-right: 190px;
-    align-items: center;
     gap: 15px;
-    cursor: pointer;
+    padding-right: 140px;
+    flex-direction: column;
 }
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
+
+
+/*Sección Términos y Condiciones*/
+.seccion-terminos {
+    background-color: white;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.seccion-terminos h1 {
+    color: #413235;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.seccion-terminos h2 {
+    color: #EA7480;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+
+.textos-terminos {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seccion-terminos h3 {
+    color: #F2798F;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.seccion-terminos p {
+    color: #413235;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: -20px;
+    line-height: 1.6;
+}
+
+.seccion-terminos a {
+    color: #EA7480;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.seccion-terminos a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-patron6 {
+    width: 100%;
+    display: block;
+}
+
+.contenedor-patron6 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    width: 100%;
+}
+
+.contenedor-footer6 {
+    background-color: #403235;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 190px;
+    margin: auto;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 65px;
+    padding-left: 140px;
+}
+
+.información-footer {
+    text-align: center;
+}
+
+.información-footer p {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
+}
+
+.información-footer .copyright {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.iconos-redes-footer {
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
+}
+
+.iconos-redes-footer a {
+    display: block;
+}
+/*terminada*/
