@@ -160,24 +160,6 @@ nav ul li a:hover {
     max-width: 550px;
 }
 
-.btn-cv2 {
-    background-color: #FCA2A2;
-    font-family: "Fredoka", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    border-radius: 9px;
-    padding: 9px 16px;
-    padding: 10px 20px;
-    margin-top: 10px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn-cv2:hover {
-    background: #EA7480;
-}
 
 .seccion3 { 
     background-color: white;
