@@ -6,6 +6,54 @@ body {
     padding: 0;
 }
 
+.galeria-portafolio {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.titulo-seccion {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 48px;
+  color: #F2798F;
+  margin-bottom: 30px;
+}
+
+.contenedor-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.proyecto {
+  background-color: #FEECEF;
+  border-radius: 20px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.proyecto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.proyecto h3 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 18px;
+  color: #413235;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
 /*header menú de navegación*/
 header {
     background-color: white;
