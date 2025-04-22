@@ -461,7 +461,6 @@ footer {
 /*seccion sobre mi*/
 .seccion-sobre-mi {
     width: 100%;
-    position: relative;
     margin-bottom: 0;
 }
 
@@ -480,7 +479,7 @@ footer {
     top: 20%;
     left: 0;
     width: 100%;
-    padding: 0 20px;
+    padding: 245px 104px;
 }
 
 .seccion-sobre-mi h1 {
