@@ -459,7 +459,6 @@ footer {
 /*terminada*/
 
 
-
 /*seccion sobre mi*/
 .seccion-sobre-mi {
     width: 100%;
@@ -773,7 +772,7 @@ footer {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
-    padding-top: 115px;
+    padding-top: 25px;
 }
 
 .seccion-portafolio p {
