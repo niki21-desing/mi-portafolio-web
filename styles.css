@@ -1225,3 +1225,114 @@ footer {
     display: block;
 }
 /*terminada*/
+
+@media screen and (max-width: 1024px) {
+  .logo img {
+    padding-left: 80px;
+  }
+
+  nav ul {
+    padding-right: 80px;
+    gap: 20px;
+  }
+
+  .textos h2 {
+    font-size: 60px;
+    padding-left: 80px;
+  }
+
+  .textos h3 {
+    font-size: 28px;
+    padding-left: 80px;
+  }
+
+  .textos p {
+    font-size: 13px;
+    padding-left: 80px;
+  }
+
+  .logo-footer img {
+    padding-left: 80px;
+  }
+
+  .iconos-redes-footer {
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .logo img {
+    padding-left: 0;
+    height: 90px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .textos h1,
+  .textos h2,
+  .textos h3,
+  .textos p {
+    padding-left: 20px;
+    text-align: left;
+    position: static;
+    margin: 0;
+  }
+
+  .textos h2 {
+    font-size: 40px;
+  }
+
+  .textos h3 {
+    font-size: 22px;
+  }
+
+  .contenedor-footer,
+  .contenedor-footer2 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo-footer img,
+  .iconos-redes-footer {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .iconos-redes-footer {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .textos h2 {
+    font-size: 28px;
+  }
+
+  .textos h3 {
+    font-size: 18px;
+  }
+
+  .textos p {
+    font-size: 12px;
+  }
+
+  .btn-cv,
+  .btn-contacto {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
