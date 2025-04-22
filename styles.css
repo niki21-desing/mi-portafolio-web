@@ -98,8 +98,8 @@ nav ul li a:hover {
 }
 
 .seccion2 {
-    background-image: url(images/fondo-sobre-mi.png);
-    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
     margin-top: -5px;
     position: relative;
 }
