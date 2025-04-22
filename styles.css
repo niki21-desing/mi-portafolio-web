@@ -108,6 +108,11 @@ nav ul li a:hover {
     align-items: center;
     justify-content: left;
     margin-top: 75px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .seccion2 h1 {
