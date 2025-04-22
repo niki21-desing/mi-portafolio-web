@@ -760,10 +760,10 @@ footer {
 .seccion-portafolio {
     background-color: white;
     width: 100%;
-    height: 700px;
+    height: 520px;
     text-align: center;
     justify-content: center;
-    margin-top: -30px;
+    margin-top: 60px;
 }
 
 .seccion-portafolio h1 {
@@ -772,7 +772,8 @@ footer {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 30px;
+    margin-top: -55px;
 }
 
 .seccion-portafolio p {
