@@ -1310,6 +1310,12 @@ footer {
     font-size: 22px;
   }
 
+    @media (max-width: 768px) {
+  .seccion-portafolio {
+    height: 735px;
+  }
+}
+
   .contenedor-footer,
   .contenedor-footer2, 
   .contenedor-footer3, 
