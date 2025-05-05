@@ -1276,7 +1276,8 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    flex-direction: column;
+    dsplay: grid;
+    grid-template-columns: repeat(3,1fr);
     height: auto;
     padding: 20px;
   }
