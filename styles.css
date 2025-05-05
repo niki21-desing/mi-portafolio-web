@@ -1322,8 +1322,9 @@ footer {
   .contenedor-footer4, 
   .contenedor-footer5, 
   .contenedor-footer6 {
-    flex-direction: column;
     text-align: center;
+    gap:15px;
+    flex-direction: column;
   }
 
   .logo-footer img,
