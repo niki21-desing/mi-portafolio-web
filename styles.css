@@ -1289,6 +1289,7 @@ footer {
   }
 
   nav ul {
+    display: grid;
     flex-direction: column;
     gap: 10px;
     padding: 0;
