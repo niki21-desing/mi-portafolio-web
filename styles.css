@@ -1278,6 +1278,7 @@ footer {
   header {
     dsplay: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 15px;
     height: auto;
     padding: 20px;
   }
