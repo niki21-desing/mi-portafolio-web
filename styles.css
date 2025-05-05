@@ -1291,7 +1291,7 @@ footer {
   nav ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     padding: 0;
   }
 
