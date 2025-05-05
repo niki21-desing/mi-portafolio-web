@@ -1317,8 +1317,6 @@ footer {
   .contenedor-footer5, 
   .contenedor-footer6 {
     flex-direction: column;
-    height: auto;
-    padding: 20px;
     text-align: center;
   }
 
