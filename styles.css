@@ -1312,7 +1312,7 @@ footer {
 
     @media (max-width: 768px) {
   .seccion-portafolio {
-    height: 735px;
+    min-height: 735px;
   }
 }
 
