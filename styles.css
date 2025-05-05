@@ -1311,7 +1311,11 @@ footer {
   }
 
   .contenedor-footer,
-  .contenedor-footer2 {
+  .contenedor-footer2, 
+  .contenedor-footer3, 
+  .contenedor-footer4, 
+  .contenedor-footer5, 
+  .contenedor-footer6 {
     flex-direction: column;
     height: auto;
     padding: 20px;
