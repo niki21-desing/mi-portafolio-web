@@ -1278,6 +1278,7 @@ footer {
   header {
     dsplay: grid;
     flex-direction: column;
+    justify-content: center;
     height: auto;
     padding: 20px;
   }
