@@ -664,8 +664,13 @@ footer {
     padding: 20px;
     top: 0;
     left: 10px;
-    transform: translateY(-15px)
-    transition: all 0.4s ease;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjeta:hover {
+      transform: scale(1.05);
+      background-color: #EA7480;
 }
 
 .tarjeta img {
