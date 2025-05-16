@@ -215,7 +215,7 @@ nav ul li a:hover {
 
 .tarjetas:hover {
       transform: scale(1.05);
-      background-color: #EA7480;
+      background-color: #F2798F;
 }
 
 .tarjetas h2 {
@@ -684,7 +684,7 @@ footer {
 
 .tarjeta:hover {
       transform: scale(1.05);
-      background-color: #EA7480;
+      background-color: #F2798F;
 }
 
 .tarjeta img {
