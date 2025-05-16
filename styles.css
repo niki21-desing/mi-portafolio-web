@@ -209,6 +209,13 @@ nav ul li a:hover {
     padding: 20px;
     margin: -20px -8px;
     position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjetas:hover {
+      transform: scale(1.05);
+      background-color: #EA7480;
 }
 
 .tarjetas h2 {
@@ -291,6 +298,13 @@ nav ul li a:hover {
     padding: 20px;
     margin: -20px -8px;
     position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjetas2:hover {
+      transform: scale(1.05);
+      background-color: #F2798F;
 }
 
 .tarjetas2 h2 {
