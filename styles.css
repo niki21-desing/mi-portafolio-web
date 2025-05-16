@@ -664,6 +664,8 @@ footer {
     padding: 20px;
     top: 0;
     left: 10px;
+    transform: translateY(-15px)
+    transition: all 0.4s ease;
 }
 
 .tarjeta img {
