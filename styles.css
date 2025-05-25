@@ -1334,6 +1334,41 @@ footer {
   }
 
     @media (max-width: 768px) {
+  .textos {
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    padding: 250px 20px;
+    text-align: left;
+  }
+
+  .seccion-sobre-mi h1 {
+    font-size: 17px;
+    margin-left: 0;
+  }
+
+  .seccion-sobre-mi h2 {
+    font-size: 48px;
+    margin-left: 0;
+    margin-top: -25px;
+  }
+
+  .seccion-sobre-mi h3 {
+    font-size: 19px;
+    margin-left: 0;
+    margin-top: -50px;
+    margin-bottom: -5px;
+  }
+
+  .seccion-sobre-mi p {
+    font-size: 10px;
+    margin-left: 0;
+    margin-bottom: -20px;
+    width: 65%;
+  }
+}
+    
+    @media (max-width: 768px) {
   .seccion-portafolio {
     min-height: 735px;
   }
