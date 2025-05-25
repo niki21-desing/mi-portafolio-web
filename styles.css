@@ -648,6 +648,12 @@ footer {
     margin-bottom: 40px;
 }
 
+.testimonios {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
 .contenedor-testimonios {
     display: flex;
     align-items: center;
@@ -677,8 +683,8 @@ footer {
     padding: 20px;
     top: 0;
     left: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: auto;
+    text-align: center;
 }
 
 .tarjeta:hover {
@@ -718,6 +724,16 @@ footer {
     font-family: "Lora", serif;
     font-size: 14px;
     font-weight: 500;
+}
+
+.swiper {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
 }
 
 .contenedor-patron3 {
