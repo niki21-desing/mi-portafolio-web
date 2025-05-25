@@ -7,6 +7,7 @@
         <title>Mis Servicios | Andrea Rodríguez</title>
         <meta name="description" content="Descubre los testimonios de clientes con los que he trabajado">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
 
     <body>
@@ -32,7 +33,11 @@
             <h1>Servicios</h1>
             <p>Clientes satisfechos comparten su <strong>experiencia</strong>:</p>
             
-            <div class="contenedor-testimonios">
+     <div class="swiper">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
             <div class="tarjeta-trasera">
                 <div class="tarjeta">
                     <img src="images/Persona1.jpeg" alt="persona 1">
@@ -49,10 +54,13 @@
                     <h2>Carlos Torres</h2>
                     <div class="testimonio-texto">
                         <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
-                    </div>
-                </div>
+                     </div>
+              </div>
             </div>
+          </div>
 
+             <!-- Slide 2 -->
+          <div class="swiper-slide">
             <div class="tarjeta-trasera">
                 <div class="tarjeta">
                     <img src="images/Persona3.jpeg" alt="persona 3">
@@ -60,7 +68,30 @@
                     <div class="testimonio-texto">
                         <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
                     </div>
-                  </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="tarjeta-trasera">
+              <div class="tarjeta">
+                <img src="images/Persona3.jpeg" alt="persona 3">
+                <h2>Sofía Martínez</h2>
+                <div class="testimonio-texto">
+                  <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <!-- Paginación -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
                 </div>
             </div>
         </div>
@@ -93,5 +124,23 @@
         </div>
     </div>
     </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Swiper(".swiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    });
+  </script>
     </body>
 </html>
