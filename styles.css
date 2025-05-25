@@ -648,10 +648,13 @@ footer {
     margin-bottom: 40px;
 }
 
-.testimonios {
-  padding: 40px 20px;
-  background-color: #fff;
-  text-align: center;
+.contenedor-testimonios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 70px;
 }
 
 .tarjeta-trasera {
@@ -673,8 +676,9 @@ footer {
     padding: 20px;
     top: 0;
     left: 10px;
-    margin: auto;
-    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .tarjeta:hover {
