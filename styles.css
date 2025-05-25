@@ -654,16 +654,6 @@ footer {
   text-align: center;
 }
 
-.contenedor-testimonios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 80px;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
 .tarjeta-trasera {
     background-color: white;
     width: 200px;
