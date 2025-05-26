@@ -1385,19 +1385,20 @@ footer {
   .seccion2 h2 {
     font-size: 48px;
     margin-left: 0;
-    margin-top: -25px;
+    margin-top: -9px;
   }
 
   .seccion2 h3 {
     font-size: 19px;
     margin-left: 0;
-    margin-top: -50px;
+    margin-top: -8px;
     margin-bottom: -5px;
   }
 
   .seccion2 p {
     font-size: 10px;
     margin-left: 0;
+    margin-top: 8px;
     margin-bottom: -20px;
     width: 65%;
   }
