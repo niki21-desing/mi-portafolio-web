@@ -659,10 +659,12 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
+    display: block;
     }
 
     .swiper-pagination-bullet {
       width: 20px;
+              height: 20px;
       text-align: center;
       line-height: 20px;
       font-size: 12px;
