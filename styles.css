@@ -184,7 +184,6 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 80px;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 52px;
@@ -275,6 +274,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 52px;
 }
