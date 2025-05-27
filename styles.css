@@ -668,7 +668,9 @@ footer {
   height: 20px;
   text-align: center;
   line-height: 20px;
+  font-family: "Lora", serif;
   font-size: 12px;
+  font-weight: 500;
   color: #000;
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
