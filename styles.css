@@ -284,6 +284,7 @@ nav ul li a:hover {
     width: 200px;
     height: 210px;
     border-radius: 10px;
+    gap:20px;
     border: 2px solid #403235;
     padding: 20px;
     margin: -15px 40px;
@@ -696,6 +697,7 @@ footer {
   border-radius: 10px;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .tarjeta img {
