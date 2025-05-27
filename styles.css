@@ -655,6 +655,7 @@ footer {
 
 .swiper-slide {
   text-align: center;
+    height: auto;
   font-size: 18px;
   display: flex;
   justify-content: center;
