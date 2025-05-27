@@ -657,7 +657,9 @@ footer {
 .swiper-slide {
   text-align: center;
   height: auto;
-  font-size: 18px;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -669,9 +671,6 @@ footer {
   height: 20px;
   text-align: center;
   line-height: 20px;
-  font-family: "Lora", serif;
-  font-size: 12px;
-  font-weight: 500;
   color: #000;
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
