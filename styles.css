@@ -663,7 +663,6 @@ footer {
 
     .swiper-pagination-bullet {
       width: 20px;
-      height: auto !important;
       text-align: center;
       line-height: 20px;
       font-size: 12px;
