@@ -725,7 +725,7 @@ footer {
 }
 
 .swiper-pagination {
-  position: relative;
+  position: absolute;
   margin-top: 30px;
 }
 
