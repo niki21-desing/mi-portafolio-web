@@ -725,8 +725,8 @@ footer {
 }
 
 .swiper-pagination {
-  position: absolute;
-  margin-top: 30px;
+  position: relative;
+  margin-top: 15px;
 }
 
 .contenedor-patron3 {
