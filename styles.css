@@ -671,12 +671,12 @@ footer {
   height: 20px;
   text-align: center;
   line-height: 20px;
-  color: #000;
+  color: white;
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
 }
 
-.swiper-pagination-bulle-active {
+.swiper-pagination-bullet-active {
   color: #fff;
   background: #F2798F;
 }
