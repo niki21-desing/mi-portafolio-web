@@ -649,34 +649,34 @@ footer {
 }
 
 .swiper {
-      width: 30%;
-      height: 100%;
-    }
+  width: 27%;
+  height: 100%;
+}
 
 .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    display: block;
-    }
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
 
-    .swiper-pagination-bullet {
-      width: 20px;
-              height: 20px;
-      text-align: center;
-      line-height: 20px;
-      font-size: 12px;
-      color: #000;
-      opacity: 1;
-      background: rgba(0, 0, 0, 0.2);
-    }
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
 
-    .swiper-pagination-bullet-active {
-      color: #fff;
-      background: #F2798F;
-    }
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #F2798F;
+}
 
 .tarjeta-trasera {
   background-color: white;
