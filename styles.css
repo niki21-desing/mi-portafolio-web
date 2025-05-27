@@ -651,6 +651,7 @@ footer {
 .swiper {
   width: 19%;
   height: 100%;
+  padding-top: 40px;
 }
 
 .swiper-slide {
