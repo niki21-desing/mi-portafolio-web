@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" minimum-scale=1, maximum-scale=1">
+  <title>Testimonios | Portafolio de Diseño</title>
+  <meta name="description" content="Testimonios de clientes satisfechos con el trabajo de Andrea Rodríguez, diseñadora gráfica.">
+  
+  <!-- Swiper CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Sobre mí</a></li>
+        <li><a href="portfolio.html">Portafolio</a></li>
+        <li><a href="testimonios.html" class="activo">Testimonios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion-servicios">
+      <h1>Lo que dicen mis clientes</h1>
+
+       <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+            <div class="tarjeta-trasera">
+                <div class="tarjeta">
+                    <img src="images/Persona1.jpeg" alt="persona 1">
+                    <h2>Mariana Lopez</h2>
+                    <div class="testimonio-texto">
+                        <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            
+
+         <div class="swiper-slide">
+            <div class="tarjeta-trasera">
+                <div class="tarjeta">
+                    <img src="images/Persona2.jpeg" alt="persona 2">
+                    <h2>Carlos Torres</h2>
+                    <div class="testimonio-texto">
+                        <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+          
+            
+         <div class="swiper-slide">
+            <div class="tarjeta-trasera">
+                <div class="tarjeta">
+                    <img src="images/Persona3.jpeg" alt="persona 3">
+                    <h2>Vanessa Benitez</h2>
+                    <div class="testimonio-texto">
+                        <p>Es muy profesional y creativa, me ayudó a darle una <strong>identidad</strong> a mi <strong>proyecto</strong>.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+
+      <div class="swiper-pagination"></div>
+  </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Andrea Rodríguez | Diseñadora Gráfica</p>
+    <p>Sígueme en: 
+      <a href="#">Instagram</a> | 
+      <a href="#">Behance</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+
+   <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
+</body>
+</html>
