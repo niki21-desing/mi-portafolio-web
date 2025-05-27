@@ -672,6 +672,7 @@ footer {
   text-align: center;
   line-height: 20px;
   color: white;
+  background: #FCA2A2; /* rosado claro */
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
 }
