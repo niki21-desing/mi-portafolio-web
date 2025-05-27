@@ -730,62 +730,77 @@ footer {
   position: relative;
 }
 
+.contenedor-patron3 {
+    width: 100%;
+}
+
+.contenedor-patron3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: -5px;
+}
+
 footer {
-  width: 100%;
+    width: 100%;
 }
 
 .contenedor-footer3 {
-  background-color: #EA7480;
-  max-width: 100%;
-  height: auto;
-  min-height: 125px;
-  color: white;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 10px;
-  box-sizing: border-box;
+    background-color: #EA7480;
+    max-width: 100%;
+    height: auto;
+    min-height: 125px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    box-sizing: border-box;
 }
 
 .logo-footer {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logo-footer img {
-  width: 65px;
-  padding-left: 140px;
+    width: 65px;
+    padding-left: 140px;
 }
 
 .información-footer {
-  text-align: center;
+    text-align: center;
 }
 
 .información-footer p {
-  font-family: "Lora", serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: white;
-  margin: 3px 0;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 3px 0;
 }
 
 .información-footer .copyright {
-  font-weight: 700;
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .iconos-redes-footer {
-  display: flex;
-  gap: 15px;
-  padding-right: 140px;
-  flex-direction: column;
+    display: flex;
+    gap: 15px;
+    padding-right: 140px;
+    flex-direction: column;
 }
 
 .iconos-redes-footer a {
-  display: block;
+    display: block;
 }
+/terminada/
 
 @media (max-width: 768px) {
   .tarjeta-trasera {
