@@ -662,6 +662,22 @@ footer {
   display: block;
 }
 
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #F2798F;
+}
+
 .tarjeta {
   background-color: #F2798F;
   width: 180px;
@@ -701,22 +717,6 @@ footer {
 .swiper-pagination {
   margin-top: 80px;
   position: relative;
-}
-
-.swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 12px;
-  color: #000;
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.swiper-pagination-bullet-active {
-  color: #fff;
-  background: #F2798F;
 }
 
 .contenedor-patron3 {
