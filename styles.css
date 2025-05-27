@@ -716,7 +716,7 @@ footer {
 
 .swiper-pagination {
   position: relative;
-  padding-top: 10px;
+  padding-top: -5px;
 }
 
 .contenedor-patron3 {
