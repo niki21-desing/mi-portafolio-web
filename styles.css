@@ -649,7 +649,7 @@ footer {
 }
 
 .swiper {
-  width: 27%;
+  width: 29%;
   height: 100%;
 }
 
@@ -676,17 +676,6 @@ footer {
 .swiper-pagination-bullet-active {
   color: #fff;
   background: #F2798F;
-}
-
-.tarjeta-trasera {
-  background-color: white;
-  width: 200px;
-  height: 290px;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .tarjeta {
