@@ -618,179 +618,182 @@ footer {
 /*terminada*/
 
 
-/*seccion servicios*/
+/* Sección Servicios */
 .seccion-servicios {
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    padding: 56px 0 60px;
-    margin-top: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 56px 0 60px;
+  margin-top: 0;
 }
 
 .seccion-servicios h1 {
-    color: #F2798F;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom: 60px;
-    margin-top: -55px;
+  color: #F2798F;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  margin-top: -55px;
 }
 
 .seccion-servicios p {
-    color: #413235;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: -50px;
-    margin-bottom: 40px;
+  color: #413235;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 40px;
 }
 
-.contenedor-testimonios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 80px;
-    margin-top: 70px;
-}
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: auto !important;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .swiper-pagination-bullet-active {
+      color: #fff;
+      background: #F2798F;
+    }
 
 .tarjeta-trasera {
-    background-color: white;
-    width: 200px;
-    height: 210px;
-    border-radius: 10px;
-    border: 2px solid #413235;
-    margin: 0;
-    position: relative;
+  background-color: white;
+  width: 200px;
+  height: 290px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tarjeta {
-    background-color: #F2798F;
-    width: 200px;
-    height: 210px;
-    border-radius: 10px;
-    position: absolute;
-    padding: 20px;
-    top: 0;
-    left: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    margin-bottom: 20px;
-}
-
-.tarjeta:hover {
-      transform: scale(1.05);
-      background-color: #F2798F;
+  background-color: #F2798F;
+  width: 180px;
+  height: 190px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .tarjeta img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #413235;
-    display: block;
-    object-fit: cover;
-    margin-top: -50px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.seccion-servicios h2 {
-    color: white;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.testimonio-texto {
-    text-align: center;
-    margin: 75px 0;
-    display: block;
+.tarjeta h2 {
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .testimonio-texto p {
-    color: white;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 500;
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
-.contenedor-patron3 {
-    width: 100%;
-}
-
-.contenedor-patron3 img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: -5px;
+.swiper-pagination {
+  margin-top: 20px;
+  position: relative;
 }
 
 footer {
-    width: 100%;
+  width: 100%;
 }
 
 .contenedor-footer3 {
-    background-color: #EA7480;
-    max-width: 100%;
-    height: auto;
-    min-height: 125px;
-    color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 10px;
-    box-sizing: border-box;
+  background-color: #EA7480;
+  max-width: 100%;
+  height: auto;
+  min-height: 125px;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+  box-sizing: border-box;
 }
 
 .logo-footer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-footer img {
-    width: 65px;
-    padding-left: 140px;
+  width: 65px;
+  padding-left: 140px;
 }
 
 .información-footer {
-    text-align: center;
+  text-align: center;
 }
 
 .información-footer p {
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    margin: 3px 0;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin: 3px 0;
 }
 
 .información-footer .copyright {
-    color: white;
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .iconos-redes-footer {
-    display: flex;
-    gap: 15px;
-    padding-right: 140px;
-    flex-direction: column;
+  display: flex;
+  gap: 15px;
+  padding-right: 140px;
+  flex-direction: column;
 }
 
 .iconos-redes-footer a {
-    display: block;
+  display: block;
 }
-/*terminada*/
+
+@media (max-width: 768px) {
+  .tarjeta-trasera {
+    height: auto;
+  }
+  .tarjeta {
+    height: auto;
+  }
+}
 
 
 /*seccion portafolio*/
