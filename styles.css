@@ -679,13 +679,6 @@ footer {
   background: #F2798F;
 }
 
-.tarjeta-trasera {
-    background-color: white;
-    width: 200px;
-    border-radius: 10px;
-    position: relative;
-}
-
 .tarjeta {
   background-color: #F2798F;
   width: 200px;
